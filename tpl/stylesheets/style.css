@@ -86,7 +86,7 @@ body{
 #header-left p{
 	font-family: 'Fjord One',arial, sans-serif; 
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 20px;
 	color: #ffffff;
 	padding-bottom:10px;
 	text-shadow: 1px 1px 0px #030303;
@@ -160,9 +160,10 @@ body{
 }
 #content-wrap{width: 874px; margin: 0 auto; height: auto; position: relative;}
 #content-full{float:left; position: relative; width: 827px; padding: 30px 30px 10px 17px;}
-#content-left{float:left; position: relative; width: 505px; padding: 30px 30px 10px 10px;}
+#content-divider{float:left; position: relative; width: 827px; padding: 5px 30px 5px 17px;}
+#content-left{float:left; position: relative; width: 505px; padding: 30px 30px 10px 17px;}
 #content-map{float:left; position: relative; width: 513px;padding-top: 30px;padding-bottom: 30px;}
-#content-left-text{float:left; position: relative; width: 409px; padding: 30px 30px 10px 10px;}
+#content-left-text{float:left; position: relative; width: 402px; padding: 30px 30px 10px 17px;}
 #content-right-text{float:left; position: relative; width: 425px;padding-top: 30px;padding-bottom: 30px;}
 #content-right-text p{padding-right: 10px;}
 
@@ -179,17 +180,18 @@ body{
 }*/
 
 .main-text-style h4{
-	font-family: 'Fjord One',arial, sans-serif; 
+	font-family: 'MolotText',arial, sans-serif; 
 	font-size: 27px;
 	color: #030303;
 	padding-bottom: 15px;
 	text-shadow: 1px 1px 0px #e3e3e3;
 	font-weight: lighter;
+	letter-spacing: 2px;
 }
 .main-text-style h3{
 	font-family: 'Fjord One',arial, sans-serif; 
 	color: #030303;
-	font-size: 23px;
+	font-size: 25px;
 	padding-bottom: 15px;
 	text-shadow: 1px 1px 0px #e3e3e3;
 	font-weight: lighter;
@@ -197,14 +199,14 @@ body{
 .main-text-style h2{
 	font-family: 'Fjord One',arial, sans-serif; 
 	color: #030303;
-	font-size: 15px;
+	font-size: 23px;
 	padding-bottom: 15px;
 	text-shadow: 1px 1px 0px #e3e3e3;
 	font-weight: lighter;
 }
 .main-text-style h1{
 	font-family: 'Fjord One',arial, sans-serif; 
-	font-size: 25px;
+	font-size: 20px;
 	color: #030303;
 	padding-bottom: 15px;
 	text-shadow: 1px 1px 0px #e3e3e3;
@@ -213,7 +215,7 @@ body{
 .main-text-style p{
 	font-family: 'Fjord One',arial, sans-serif; 
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 16px;
 	color: #030303;
 	padding-bottom:10px;
 	text-shadow: 1px 1px 0px #e3e3e3;
