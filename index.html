@@ -1,16 +1,39 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Julio Georgiou PT</title>
+		<title>Julio Georgiou personal training</title>
 		<link href="tpl/stylesheets/style.css" type="text/css" rel='stylesheet' />
 		<link href='http://fonts.googleapis.com/css?family=Fjord+One' rel='stylesheet' type='text/css'>
 		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+		<!-- ico nav elements -->
+		<link rel="stylesheet" href="icoroll/icomoon/style.css" />
+		<!--[if lte IE 7]>
+		<script src="/icoroll/icomoon/lte-ie7.js"></script>
+		<link rel="stylesheet" href="/icoroll/ie7.css" />
+		<![endif]-->
+		<script src="icoroll/jquery.js"></script>
+		<script src="icoroll/icoroll.js"></script>
+		<link rel="stylesheet" href="icoroll/icoroll.css" />
+		<link rel="stylesheet" href="icoroll/dark.css" /> <!-- this is theme css file -->
+		<script>
+		$(function(){
+			icoroll({},{
+				position:'right',// menu position left or right
+				elements:[
+				{'class':'icon-home-3','href':'#home'},//single menu element
+				{'class':'icon-user','href':'#about','content':'About Julio'},//single menu element
+				{'class':'icon-heart','href':'#pt','content':'Personal Training'}//single menu element
+				]
+			});
+		});
+		</script>
 	</head>
 	<body>
 		<div id="header">
 			<div id="header-top">
 				<div id="topbar">
-						<p>&#8220;STRIVE FOR PROGRESS, NOT PERFECTION.&#8221;</p>
+						<p id="home">&#8220;STRIVE FOR PROGRESS, NOT PERFECTION.&#8221;</p>
 					</div>
 				</div>
 			</div>
@@ -31,7 +54,7 @@
 				<div id="content-wrap">
 					<div id="content-left-text" class="main-text-style">
 						<br/><br/><br/>
-						<h4>About Julio Georgiou</h4>
+						<h4 id="about">About Julio Georgiou</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
@@ -42,11 +65,11 @@
 						<div class="divider-line">&nbsp;</div>
 					</div>
 					<div class="clear"></div>
-					<div id="content-full" class="main-text-style">
-						<h1>Title h1</h1>
-						<h2>Title h2</h2>
-						<h3>Title h3</h3>
-						<h4>Title h4</h4>
+					<div id="content-left-text" class="main-text-style">
+						<h4 id="pt">Personal Training</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div id="content-right-text" class="main-text-style">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 				</div>

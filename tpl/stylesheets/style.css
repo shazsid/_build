@@ -164,6 +164,7 @@ body{
 #content-left{float:left; position: relative; width: 505px; padding: 30px 30px 10px 17px;}
 #content-map{float:left; position: relative; width: 513px;padding-top: 30px;padding-bottom: 30px;}
 #content-left-text{float:left; position: relative; width: 402px; padding: 30px 30px 10px 17px;}
+#conetnt-left-text p{padding-left:10px;}
 #content-right-text{float:left; position: relative; width: 425px;padding-top: 30px;padding-bottom: 30px;}
 #content-right-text p{padding-right: 10px;}
 
