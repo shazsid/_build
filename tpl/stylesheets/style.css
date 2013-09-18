@@ -166,7 +166,7 @@ body{
 #content-left-text{float:left; position: relative; width: 402px; padding: 30px 30px 10px 17px;}
 #conetnt-left-text p{padding-left:10px;}
 #content-right-text{float:left; position: relative; width: 425px;padding-top: 30px;padding-bottom: 30px;}
-#content-right-text p{padding-right: 10px;}
+#content-right-text p{padding-right: 17px;}
 
 /*#content-left-text:before{
 	content:url(../images/vertical-divider-line2.png);
@@ -222,10 +222,32 @@ body{
 	text-shadow: 1px 1px 0px #e3e3e3;
 	font-weight: lighter;
 }
-.main-text-style ol{margin: 0 auto; padding-left: 15px;}
-.main-text-style ol li{font-size: 12px;font-weight: bold;}
-.main-text-style ul{margin: 0 auto;}
-.main-text-style ul li{font-size: 12px;font-weight: bold;}
+.main-text-style ol{
+	margin: 0 auto;
+	padding-left: 15px;
+}
+.main-text-style ol li{
+	font-size: 16px;
+	font-weight: bold;
+}
+.main-text-style ul{
+	padding: 0px;
+	margin: 0 auto;
+	list-style-type:none;
+}
+.main-text-style ul li{
+	background-image:url('../images/bullet.gif');
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	padding-left:24px;
+	padding-bottom: 5px;
+	font-family: 'Fjord One',arial, sans-serif; 
+	font-weight: normal;
+	color: #030303;
+	text-shadow: 1px 1px 0px #e3e3e3;
+	font-size: 16px;
+	font-weight: bold;
+}
 
 .main-text-style a, .main-text-style p a{text-decoration:none;background-color:#0a659b; color:#fff;cursor: pointer;}
 
