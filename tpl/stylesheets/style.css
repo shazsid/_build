@@ -25,6 +25,7 @@ body{
 
 .top-left-text{text-align: left; vertical-align: top;}
 
+
 /* fonts added locally commercial free */
 @font-face {
     font-family: 'NeutraText';
@@ -80,17 +81,25 @@ body{
 	margin: 0 auto;
 	position: relative;
 	float: left;
-	padding: 30px 0px 10px 10px;
+	padding: 20px 0px 10px 10px;
 	text-align: right;
 }
 #header-left p{
-	font-family: 'Fjord One',arial, sans-serif; 
+	font-family: 'Fjord One',arial, sans-serif;
 	font-weight: normal;
 	font-size: 20px;
 	color: #ffffff;
 	padding-bottom:10px;
 	text-shadow: 1px 1px 0px #030303;
 	font-weight: bold;
+	line-height: 150%;
+}
+#header-left a{
+	color: #fff;
+	text-decoration: none;
+}
+#header-left a:hover{
+	color: #054d7c;
 }
 #header-right-main{
 	width: 360px;
@@ -190,10 +199,10 @@ body{
 	letter-spacing: 2px;
 }
 .main-text-style h3{
-	font-family: 'Fjord One',arial, sans-serif; 
+	font-family: 'MolotText',arial, sans-serif; 
 	color: #030303;
 	font-size: 25px;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 	text-shadow: 1px 1px 0px #e3e3e3;
 	font-weight: lighter;
 }
@@ -201,7 +210,7 @@ body{
 	font-family: 'Fjord One',arial, sans-serif; 
 	color: #030303;
 	font-size: 23px;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 	text-shadow: 1px 1px 0px #e3e3e3;
 	font-weight: lighter;
 }
@@ -209,7 +218,7 @@ body{
 	font-family: 'Fjord One',arial, sans-serif; 
 	font-size: 20px;
 	color: #030303;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 	text-shadow: 1px 1px 0px #e3e3e3;
 	font-weight: lighter;
 }
@@ -247,6 +256,8 @@ body{
 	text-shadow: 1px 1px 0px #e3e3e3;
 	font-size: 16px;
 	font-weight: bold;
+	position: relative;
+	float: none;
 }
 
 .main-text-style a, .main-text-style p a{text-decoration:none;background-color:#0a659b; color:#fff;cursor: pointer;}

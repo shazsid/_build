@@ -23,8 +23,8 @@
 /* Colors for menu elements*/
 .scroll_colors
 {
-	background:#222222;
-	color:#999;
+	background:#054d7c;
+	color:#fff;
 }
 
 /* 
@@ -34,8 +34,8 @@ Style for hovered menu elements, active menu element and back button
 .scroll_menu li.current a, .scroll_menu li.current span,#scroll_back span,
 .hover_colors
 { 
-    background: #2e81b0;
-    color: #fff;
+    background: #efb840;
+    color: #000;
     text-decoration:none;
     
 }
