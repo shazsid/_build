@@ -260,9 +260,10 @@ body{
 	float: none;
 }
 
-.main-text-style a, .main-text-style p a{text-decoration:none;background-color:#0a659b; color:#fff;cursor: pointer;}
+.main-text-style a, .main-text-style p a{text-decoration:none;background-color:#0a659b; color:#fff;cursor: pointer;background-color: #fff;}
 
-
+/* contact section */
+/*#contact-full{float:left; position: relative; width: 827px; padding: 30px 30px 10px 17px; margin-left: auto; margin-right: auto; text-align: center;}*/
 
 /* Footer */
 
