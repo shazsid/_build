@@ -66,8 +66,15 @@ body{
 }
 #header-top a{color: #151515; text-decoration: underline;}
 
+/* Wrapper to centerise the whole site */
+#wrapper {
+	width:910px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #header-wrap{
-	width: 910px; margin: 0 auto; padding: 0px; height: 205px; position: absolute; float: none; left: 178px;z-index: 5;
+	width: 910px; margin: 0 auto; padding: 0px; height: 205px; position: relative; float: none;z-index: 5;
 	background-image: url('../images/header-banner-bg.png');
 	background-repeat: no-repeat;
 }
@@ -153,18 +160,17 @@ body{
 
 /* front poster */
 #poster{
-	width: 910px; margin: 0 auto; height: 583px; position: absolute; float:none; top:170px; left:196px; z-index: 1;
+	width: 910px; margin: 0 auto; height: 583px; position: relative; float:left;left:17px;top:-35px; z-index: 1;
 }
 
 /* Content */
 #content{padding-bottom: 28px;
 	margin: 0 auto;
 	color: #929292;
-	margin-top:687px;
-	margin-left:17px;
 	position: relative;
 	float:left;
-	left:179px;
+	left:17px;
+	top:-35px;
 	background-color: #ffffff;
 }
 #content-wrap{width: 874px; margin: 0 auto; height: auto; position: relative;}
@@ -366,9 +372,10 @@ body{
 #footer-bottom{
 	width: 874px; 
 	margin: 0 auto;
-	position: absolute;
-	float: none;
-	left: 196px;
+	position: relative;
+	float: left;
+	left:17px;
+	top:-35px;
 	z-index: 5;
 	height: 74px;
 	background-image: url('../images/footer-bg.jpg');
